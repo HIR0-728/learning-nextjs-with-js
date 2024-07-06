@@ -20,9 +20,9 @@
   /* スペース（余白・間隔） */
   --space-xs: clamp(1.25rem, 1rem + 0.98vw, 1.875rem); /* 20px ~ 30px */
   --space-sm: calc(var(--space-xs) * 1.5); /* 30px ~ 45px */
-  --space-md: calc(var(--space-sm) * 2); /* 40px ~ 60px */
-  --space-lg: calc(var(--space-md) * 3); /* 60px ~ 90px */
-  --space-xl: calc(var(--space-lg) * 4); /* 80px ~ 120px */
+  --space-md: calc(var(--space-xs) * 2); /* 40px ~ 60px */
+  --space-lg: calc(var(--space-xs) * 3); /* 60px ~ 90px */
+  --space-xl: calc(var(--space-xs) * 4); /* 80px ~ 120px */
   --space-jump: clamp(1.25rem, 0.35rem + 3.8vw, 3.75rem); /* 20px ~ 60px */
 
   /* 基本設定 */
@@ -52,7 +52,7 @@
   *, *::before, *::after {
     box-sizing: border-box;
   }
-  
+
   a {
     color: inherit;
     text-decoration: none;
